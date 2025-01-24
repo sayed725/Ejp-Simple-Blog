@@ -32,12 +32,7 @@ const Profile = async () => {
           Hello, <span className="font-semibold text-gray-800">{given_name + " " + family_name}</span>!
         </p>
         <div className="px-6 py-10 rounded  md:w-2/3 flex gap-6">
-        {/* <div>
-            <img src={picture} alt="profilePic"  width={100}
-            height={100}
-            className="rounded-full border" />
-         
-        </div> */}
+       
         <div className="space-y-1">
           <h1 className="text-xl font-semibold tracking-wider pb-1">
             Email:{user && email}
