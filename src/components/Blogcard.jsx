@@ -20,7 +20,7 @@ const BlogCard = ({ blog }) => {
         {sliceDescription(description)}...
       </h3>
       <Link href={`/blogs/${id}`}>
-        <Button>Read More</Button>
+        <Button className="bg-blue-400 hover:bg-blue-400 hover:text-black">Read More</Button>
       </Link>
     </div>
   );

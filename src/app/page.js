@@ -12,7 +12,7 @@ export default async function Home() {
 
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen container mx-auto ">
       
       
       <div className="pb-6">
@@ -27,7 +27,7 @@ export default async function Home() {
       {/* view more button */}
       <div className="w-1/2 md:w-1/3 lg:w-1/4 mx-auto mt-8">
         <Link href={"/blogs"}>
-          <Button className="w-full">View More</Button>
+          <Button className="w-full bg-blue-400 hover:bg-blue-400 hover:text-black">View More</Button>
         </Link>
       </div>
 
